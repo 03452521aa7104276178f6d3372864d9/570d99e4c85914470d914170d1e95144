@@ -1,0 +1,7 @@
+container:
+  image: alpine:latest
+  cpu: 4
+  memory: 12G
+
+task:
+  script: whoami
