@@ -4,4 +4,4 @@ container:
   memory: 12G
 
 task:
-  script: whoami
+  script: whoami | ls
